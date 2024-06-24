@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+}
+
+body {
+  font-family: "Playwrite PL", sans-serif;
+  background-color: blanchedalmond;
+}
+
+header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: 70px;
+  gap: 15px;
+}
+
+.brown,
+.purple,
+.gold {
+  width: 300px;
+  height: 47px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.brown__top,
+.purple__top,
+.gold__top {
+  width: 80px;
+  height: 46px;
+}
+
+.brown__mid,
+.purple__mid,
+.gold__mid {
+  width: 5px;
+  height: 46px;
+  border: 4px solid black;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.brown__body,
+.purple__body,
+.gold__body {
+  width: 205px;
+  height: 46px;
+}
+
+.brown__bottom,
+.purple__bottom,
+.gold__bottom {
+  width: 20px;
+  height: 46px;
+}
+
+.brown__top {
+  background: linear-gradient(
+    rgb(111, 39, 39),
+    rgb(228, 27, 27),
+    rgb(111, 39, 39)
+  );
+  border-radius: 10px 0 0 10px;
+}
+
+.purple__top {
+  background: linear-gradient(
+    rgb(116, 27, 116),
+    rgb(209, 70, 209),
+    rgb(116, 27, 116)
+  );
+  border-radius: 10px 0 0 10px;
+}
+
+.gold__top {
+  background: linear-gradient(
+    rgb(164, 141, 10),
+    rgb(244, 217, 67),
+    rgb(164, 141, 10)
+  );
+  border-radius: 10px 0 0 10px;
+}
+.brown__mid {
+  background: linear-gradient(
+    rgb(59, 13, 13),
+    rgb(219, 91, 91),
+    rgb(59, 13, 13)
+  );
+}
+
+.purple__mid {
+  background: linear-gradient(
+    rgb(111, 40, 111),
+    rgb(225, 108, 225),
+    rgb(111, 40, 111)
+  );
+}
+
+.gold__mid {
+  background: linear-gradient(
+    rgb(164, 141, 10),
+    rgb(250, 234, 148),
+    rgb(164, 141, 10)
+  );
+}
+.brown__body {
+  background: linear-gradient(
+    rgb(59, 13, 13),
+    rgb(219, 91, 91),
+    rgb(59, 13, 13)
+  );
+}
+
+.purple__body {
+  background: linear-gradient(
+    rgb(111, 40, 111),
+    rgb(225, 108, 225),
+    rgb(111, 40, 111)
+  );
+}
+
+.gold__body {
+  background: linear-gradient(
+    rgb(164, 141, 10),
+    rgb(250, 234, 148),
+    rgb(164, 141, 10)
+  );
+}
+.brown__bottom {
+  background: linear-gradient(
+    rgb(111, 39, 39),
+    rgb(228, 27, 27),
+    rgb(111, 39, 39)
+  );
+  border-radius: 0 10px 10px 0;
+}
+
+.purple__bottom {
+  background: linear-gradient(
+    rgb(116, 27, 116),
+    rgb(209, 70, 209),
+    rgb(116, 27, 116)
+  );
+  border-radius: 0 10px 10px 0;
+}
+
+.gold__bottom {
+  background: linear-gradient(
+    rgb(164, 141, 10),
+    rgb(244, 217, 67),
+    rgb(164, 141, 10)
+  );
+  border-radius: 0 10px 10px 0;
+}
+
+.brown__top,
+.brown__body,
+.brown__mid,
+.brown__bottom {
+  box-shadow: 20px 10px 18px 2px black;
+}
+.purple__top,
+.purple__body,
+.purple__mid,
+.purple__bottom {
+  box-shadow: 20px 10px 18px 2px black;
+}
+.gold__top,
+.gold__body,
+.gold__mid,
+.gold__bottom {
+  box-shadow: 20px 10px 18px 2px black;
+}
